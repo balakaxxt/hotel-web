@@ -3,6 +3,8 @@
     background-repeat: repeat-y;
 }
 
-.cima{
+.fotoconteudo{
+    background: url('../public/hotelconteudo.jpq'); height: 300px; width: 100%; 
+    background-repeat: repeat-y;
     
 }

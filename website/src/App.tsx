@@ -109,7 +109,7 @@ function App() {
     
       <div className="flex">
 
-        <div className="">
+        <div className="pr-10">
           <div className="text-sm text-gray-400  font-medium">Hotel em destaque</div>
 
           <div className="text-2xl text-gray-600">Praia de boa viagem</div>
@@ -125,12 +125,30 @@ function App() {
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab voluptates soluta obcaecati reprehenderit itaque alias nisi eos, corporis asperiores. Enim perferendis exercitationem natus? Illo quisquam veritatis perferendis possimus quibusdam aliquam?
             </p>
+
+
+
+
+          <div className="mt-4">
+          <a href="" className=" inline-flex  items-center text-yellow-900 bg-yellow-500 font-medium py-2 px-3 rounded">
+            Solicitar Reservar 
+            
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+
+            </a>
           </div>
+          
+          </div>
+
+          
         </div>
 
-        <div className="ml-auto">
+        <div className="flex-shrink-0 ml-auto ">
+        <img src="../public/hotelconteudo.jpq"width="364" alt=""/>
+         
           
-      
+       
+
 
         </div>
 
