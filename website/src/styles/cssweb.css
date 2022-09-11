@@ -1,5 +1,5 @@
 .banner{
-    background: url('../public/hotel2.jpg'); height: 450px; width: 1200px; 
+    background: url('../public/hotel2.jpg'); height: 450px; width: 100%; 
     background-repeat: repeat-y;
 }
 
