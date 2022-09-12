@@ -170,18 +170,26 @@ function App() {
       <h4 className="text-center mb-8">
         com belas vista ao mar.
       </h4>
-
+{/* componetes  inicio gripo */}
       <div className="grid grid-cols-4 grid-rows-2 gap-6">
 
             <div className="col-span-2 row-span-2 rounded-lg overflow-hidden">
 
-            <div className="w-full h-full object-cover fotogrip1"></div>
+            <div className="w-full h-full object-cover fotogrip1">
+              
+            </div>
               
               
               
             </div>
 
             <div className="col-span-2 h-30 rounded-lg overflow-hidden">
+
+            <div>
+
+
+            </div>
+
             <div className="fotogrip2 w-full h-full object-cover"></div>  
               
             </div>
