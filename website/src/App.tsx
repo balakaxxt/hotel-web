@@ -133,7 +133,7 @@ function App() {
           <a href="" className=" inline-flex  items-center text-yellow-900 bg-yellow-500 font-medium py-2 px-3 rounded">
             Solicitar Reservar 
             
-            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
 
             </a>
           </div>
@@ -159,8 +159,52 @@ function App() {
     </div>
   </div>   
 {/* conteudo hoteis*/}
+
+{/* conteudo abaixo com grip */}
+
+<div>
+  <div className="containr mx-auto px-4">
+    <h3 className="text-xl text-gray-500 text-center font-semibold">
+      Conheça mais hoteis
+    </h3>
+      <h4 className="text-center mb-8">
+        com belas vista ao mar.
+      </h4>
+
+      <div className="grid grid-cols-4 grid-rows-2 gap-6">
+
+            <div className="col-span-2 row-span-2 rounded-lg overflow-hidden">
+
+            <div className="w-full h-full object-cover fotogrip1"></div>
+              
+              
+              
+            </div>
+
+            <div className="col-span-2 h-30 rounded-lg overflow-hidden">
+            <div className="fotogrip2 w-full h-full object-cover"></div>  
+              
+            </div>
+
+            <div className="  rounded-lg overflow-hidden">
+            <div className="fotogrip3
+            w-full h-full object-cover"></div>
+            </div>
+
+            <div className="rounded-lg overflow-hidden">
+            <div className="fotogrip4 w-full h-full object-cover"></div>
+
+
+            </div>
+
+      </div>
+
+  </div>
+</div>
+
+{/* conteudo abaixo com grip */}
  
-  
+  <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 
     
 </>
