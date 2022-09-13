@@ -30,3 +30,8 @@ background-repeat: repeat-y;
 background: url('../public/imgpequena2.png'); height: 200px; width: 100%; 
 background-repeat: repeat-y;
 }
+
+.whatsicone{
+    background: url('../public/instagram.png'); height: 200px; width: 100%; 
+background-repeat: repeat-y;
+}
