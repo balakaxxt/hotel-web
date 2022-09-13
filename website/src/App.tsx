@@ -37,7 +37,7 @@ function App() {
     </ul>
 
     </div> 
-    </div>
+  </div>
   {/* Navbar- menu*/}
 
 
@@ -50,7 +50,8 @@ function App() {
       <div id="div-conteiner">
 
       <div className="text-center">
-        <h1 className="text-white text-3xl mb-3">Seja bem vindo Onde vc quer ir? </h1>
+        <h1 className="text-white text-2xl mb-3">Seja bem vindo</h1>
+        <h1 className="text-white text-3xl mb-3"> Onde Deseja ir ? </h1>
         <p className="text-green-100">Escolha melhores Hoteis com uma bela vista ao mar.</p>
       </div>
 
@@ -158,11 +159,11 @@ function App() {
 
     </div>
   </div>   
-{/* conteudo hoteis*/}
+  {/* conteudo hoteis*/}
 
-{/* conteudo abaixo com grip */}
+  {/* conteudo abaixo com grip */}
 
-<div>
+  <div>
   <div className="containr mx-auto px-4">
     <h3 className="text-xl text-gray-500 text-center font-semibold">
       Conheça mais hoteis
@@ -248,14 +249,14 @@ function App() {
       </div>
 
   </div>
-</div>
+  </div>
 
-{/* conteudo abaixo com grip */}
+  {/* conteudo abaixo com grip */}
 
 
-{/* Footer Seach-Buscador*/}
+  {/* Footer Seach-Buscador*/}
 
-<div className="py-20">
+  <div className="py-20">
   <div className="container mx-auto px-4 flex justify-center">
   <form className="space-x-4">
 
@@ -279,32 +280,42 @@ function App() {
 </form>
 
   </div>
-</div>
+  </div>
 
 
-{/* Footer Seach-Buscador */}
+  {/* Footer Seach-Buscador */}
 
 
 
 
-{/* Footer-informaçoes finais - Fish */}
-<div className="borde-t border-gray-200">
-  <div className="container mx=auto px-4 flex items-center justify-between">
+  {/* Footer-informaçoes finais - Fish */}
+
+  <div className="borde-t border-gray-200">
+  <div className="container mx=auto px-5 flex items-center justify-between">
 
 
   <div className="text=gray=400 font-black">
     Paradise Eden
 
     </div>
-{/* REDE SOCIAL - links - icones */}
-    <div>
-      
-    <a></a>
-    
-    <a></a>
 
-    <a></a>
+    {/* REDE SOCIAL - links - icones */}
+    <div className="flex items-center space-x-4">
+      
+   
+    <a href="">
+      <img src="../public/facebook.jpg" height="20x" width="30%"></img>
+    </a>
+
     
+    <a href="">
+      <img src="../public/instagram.jpg" height="20x" width="30%"></img>
+    </a>
+
+    <a href="">
+      <img src="../public/whats-icone.jpg" height="20x" width="30%"></img>
+    </a>
+
     
     </div>
 
@@ -316,15 +327,9 @@ function App() {
 
 
 
-</div>
-{/* Footer informaçoes finais - Fish */}
-
-
-
-
-  <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-
-    
+  </div>
+  {/* Footer informaçoes finais - end bye */}
+  
 </>
 
     
