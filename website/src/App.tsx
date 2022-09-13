@@ -295,7 +295,7 @@ function App() {
 
 <select className="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
   <option value="" key="">
-    Escolha Estado
+    Escolha EStado
   </option>
 </select>
 
