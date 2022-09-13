@@ -61,7 +61,7 @@ function App() {
 
           <select className="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
             <option value="" key="">
-              Escolha estado
+              Escolha Estado
             </option>
             <option value="" key="">
               Pernambuco
@@ -71,7 +71,7 @@ function App() {
 
           <select className="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
             <option value="" key="">
-              Escolha cidade
+              Escolha Cidade
             </option>
             <option value="" key="">
               Recife
@@ -295,7 +295,7 @@ function App() {
 
 <select className="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
   <option value="" key="">
-    Escolha EStado
+    Escolha Estado
   </option>
 </select>
 
