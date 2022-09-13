@@ -89,7 +89,10 @@ function App() {
             </option>
 
             <option value="" key="">
-              Gaibu
+            Paiva
+            </option>
+            <option value="" key="">
+            Candeias
             </option>
 
             <option value="" key="">
@@ -137,20 +140,21 @@ function App() {
       <div className="flex">
 
         <div className="pr-10">
-          <div className="text-sm text-gray-400  font-medium">Hotel em destaque</div>
+          <div className="text-sm text-gray-400  font-medium">Hotel em Destaque</div>
 
-          <div className="text-2xl text-gray-600">Praia de boa viagem</div>
+          <div className="text-2xl text-gray-600">Porto de Galinhas</div>
 
-          <div className="text-sm text-gray-400 font-medium mt-2" >Praia de candeias</div>
+          <div className="text-sm text-gray-400 font-medium mt-2" >Porto</div>
 
           <div className="text-sm text-gray-400 font-medium mt-4">
 
             <p className="mb-4">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab voluptates soluta obcaecati reprehenderit itaque alias nisi eos, corporis asperiores. Enim perferendis exercitationem natus? Illo quisquam veritatis perferendis possimus quibusdam aliquam?
+            Porto de Galinhas é umas praia indescritivelmente linda!
             </p>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab voluptates soluta obcaecati reprehenderit itaque alias nisi eos, corporis asperiores. Enim perferendis exercitationem natus? Illo quisquam veritatis perferendis possimus quibusdam aliquam?
+            Um lugar inesquecivel repleto de praias exoticas.
+            Quem vem sempre volta para os encantos desse lindo Município.
             </p>
 
 
@@ -211,7 +215,7 @@ function App() {
               {/* nomes na frente da foto */}
 
               <div className="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
-              Itamaraca hotel
+              Itamaracá Hotel
                 
               </div>
             </div>
@@ -227,7 +231,7 @@ function App() {
               {/* nomes na frente da foto */}
 
               <div className="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
-                Porto de galinha hotel
+                Porto de Galinhas Hotel
                 
               </div>
               
@@ -246,7 +250,7 @@ function App() {
 
               <div className="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
                 
-                Candeias hotel
+                Candeias Hotel
                 
               </div>
 
@@ -265,7 +269,7 @@ function App() {
               {/* nomes na frente da foto */}
 
               <div className="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
-              Paiva hotel
+              Paiva Hotel
                 
               </div>
 
