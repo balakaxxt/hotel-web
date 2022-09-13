@@ -103,9 +103,9 @@ function App() {
   {/* banner do site */}
 
 
-  {/* conteudo hoteis*/}
+  {/* Main=Conteudo , hoteis*/}
   <div>
-    <div className="container mx-auto px-4 py-10">
+    <div className="container mx-auto px-4 py-20">
     
       <div className="flex">
 
@@ -251,7 +251,77 @@ function App() {
 </div>
 
 {/* conteudo abaixo com grip */}
- 
+
+
+{/* Footer Seach-Buscador*/}
+
+<div className="py-20">
+  <div className="container mx-auto px-4 flex justify-center">
+  <form className="space-x-4">
+
+<select className="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+  <option value="" key="">
+    escolha estado
+  </option>
+</select>
+
+<select className="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+  <option value="" key="">
+    escolha cidade
+  </option>
+</select>
+
+<button className=" inline-flex  items-center text-yellow-900 bg-yellow-500 font-medium py-2 px-3 rounded">
+
+<svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+  Pesquisa hotel</button>
+
+</form>
+
+  </div>
+</div>
+
+
+{/* Footer Seach-Buscador */}
+
+
+
+
+{/* Footer-informaçoes finais - Fish */}
+<div className="borde-t border-gray-200">
+  <div className="container mx=auto px-4 flex items-center justify-between">
+
+
+  <div className="text=gray=400 font-black">
+    Paradise Eden
+
+    </div>
+{/* REDE SOCIAL - links - icones */}
+    <div>
+      
+    <a></a>
+    
+    <a></a>
+
+    <a></a>
+    
+    
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+</div>
+{/* Footer informaçoes finais - Fish */}
+
+
+
+
   <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 
     
