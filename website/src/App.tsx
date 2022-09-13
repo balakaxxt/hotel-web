@@ -12,7 +12,7 @@ function App() {
   <div className="container mx-auto px-4 h-24 flex items-center">
     
     <div className="font-black text-bold h-5">
-    Paradise Eden
+    Paradise Eden <span>By:Dem</span>
     </div>
   {/* Navbar- menu*/}
     <ul className="flex items-center ml-auto space-x-3">
@@ -293,24 +293,54 @@ function App() {
   <div className="container mx-auto px-4 flex justify-center">
   <form className="space-x-4">
 
-<select className="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
-  <option value="" key="">
-    Escolha Estado
-  </option>
-</select>
+          <select className="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+            <option value="" key="">
+              Escolha Estado
+            </option>
+            <option value="" key="">
+              Pernambuco
+            </option>
+           
+          </select>
 
-<select className="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
-  <option value="" key="">
-    Escolha Cidade
-  </option>
-</select>
+          <select className="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+            <option value="" key="">
+              Escolha Cidade
+            </option>
+            <option value="" key="">
+              Recife
+            </option>
+           
+          </select>
 
-<button className=" inline-flex  items-center text-yellow-900 bg-yellow-500 font-medium py-2 px-3 rounded">
+          <select className="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+            <option value="" key="">
+              Escolha Municipio
+            </option>
 
-<svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-  Pesquisa Hotel</button>
+            <option value="" key="">
+              Itamaracá
+            </option>
 
-</form>
+            <option value="" key="">
+            Paiva
+            </option>
+            <option value="" key="">
+            Candeias
+            </option>
+
+            <option value="" key="">
+              Porto de Galinhas
+            </option>
+          </select>
+
+          <button className=" inline-flex  items-center text-yellow-900 bg-yellow-500 font-medium py-2 px-3 rounded">
+
+          <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            Pesquisa hotel</button>
+
+        </form>
+
 
   </div>
   </div>
@@ -328,7 +358,7 @@ function App() {
 
 
   <div className="text=gray=400 font-black">
-    Paradise Eden
+    Paradise Eden <span>By:Dem</span>
 
     </div>
 
