@@ -171,12 +171,20 @@ function App() {
         com belas vista ao mar.
       </h4>
 {/* componetes  inicio gripo */}
+
       <div className="grid grid-cols-4 grid-rows-2 gap-6">
 
             <div className="col-span-2 row-span-2 rounded-lg overflow-hidden">
 
-            <div className="w-full h-full object-cover fotogrip1">
-              
+            <div className="relative w-full h-full object-cover fotogrip1">.
+            <img src="../public/img-shadow1.png" className="absolute bottom-0 left-0 right-0 h-5 z-10"></img>
+
+              {/* nomes na frente da foto */}
+
+              <div className="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
+                beach park resort
+                
+              </div>
             </div>
               
               
@@ -184,23 +192,55 @@ function App() {
             </div>
 
             <div className="col-span-2 h-30 rounded-lg overflow-hidden">
+              <div className=" relative fotogrip2 w-full h-full object-cover z-10">
+                 <img src="../public/img-shadow1.png" className="absolute bottom-0 left-0 right-0 h-5 z-10"></img>
 
-            <div>
+              {/* nomes na frente da foto */}
 
-
-            </div>
-
-            <div className="fotogrip2 w-full h-full object-cover"></div>  
+              <div className="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
+                beach park resort
+                
+              </div>
               
+              </div>  
+
+              
+             
             </div>
 
             <div className="  rounded-lg overflow-hidden">
-            <div className="fotogrip3
-            w-full h-full object-cover"></div>
+            <div className="relative fotogrip3
+            w-full h-full object-cover">
+              <img src="../public/img-shadow1.png" className="absolute bottom-0 left-0 right-0 h-5 z-10"></img>
+
+              {/* nomes na frente da foto */}
+
+              <div className="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
+                beach park resort
+                
+              </div>
+
+               
+            </div>
+
+
+
             </div>
 
             <div className="rounded-lg overflow-hidden">
-            <div className="fotogrip4 w-full h-full object-cover"></div>
+              
+            <div className="relative fotogrip4 w-full h-full object-cover">
+              <img src="../public/img-shadow1.png" className="absolute bottom-0 left-0 right-0 h-5 z-10"></img>
+
+              {/* nomes na frente da foto */}
+
+              <div className="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
+                beach park resort
+                
+              </div>
+
+
+            </div>
 
 
             </div>
